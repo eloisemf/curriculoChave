@@ -6,9 +6,9 @@ Este projeto foi desenvolvido para facilitar o processo de candidatura e seleç�
 
 Para baixar este projeto, você pode clonar o repositório usando o seguinte comando no terminal:
 
-\`\`\`bash
+```bash
 git clone https://github.com/seu_usuario/seu_projeto.git
-\`\`\`
+```
 
 Alternativamente, você pode baixar o projeto como um arquivo ZIP clicando no botão "Code" na página do repositório e selecionando "Download ZIP".
 
