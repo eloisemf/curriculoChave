@@ -31,19 +31,21 @@ def escolhendoAptos():
 def main():
     welcome()
     while True:
-        vaga = int(input(f'''\nPara qual vaga deseja se candidatar?
-        1 = Vaga 1
-        2 = Vaga 2
-        0 = Sair
-: \n'''))
-        if vaga == 1:
-            dadosCandidato('Vaga1')
-        elif vaga == 2:
-            dadosCandidato('Vaga2')
-        elif vaga == 0:
-            escolhendoAptos()
-            break
-        else:
-            print('Erro!')
-
+        try:
+            vaga = int(input(f'''\nPara qual vaga deseja se candidatar?
+            1 = Vaga 1
+            2 = Vaga 2
+            0 = Sair
+: '''))
+            if vaga == 1:
+                dadosCandidato('Vaga1')
+            elif vaga == 2:
+                dadosCandidato('Vaga2')
+            elif vaga == 0:
+                escolhendoAptos()
+                break
+            else:
+                print('Erro! Opção inválida.')
+        except ValueError:
+            print('\nApenas números!')
 main()
