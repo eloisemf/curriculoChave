@@ -25,8 +25,8 @@ def escolhendoAptos():
                         aptos1.append(nome)
                     elif 'análise de dados' in bio or 'dados' in bio or 'SQL' in bio:
                         aptos2.append(nome)  
-    print(f'Para vaga 1 recebemos {len(candidatos['Vaga1'])} inscrições de candidatos, onde {len(aptos1)} são aptos\n')
-    print(f'Para vaga 2 recebemos {len(candidatos['Vaga2'])} inscrições de candidatos, onde {len(aptos2)} são aptos') 
+    print(f"Para vaga 1 recebemos {len(candidatos['Vaga1'])} inscrições de candidatos, onde {len(aptos1)} são aptos\n")
+    print(f"Para vaga 2 recebemos {len(candidatos['Vaga2'])} inscrições de candidatos, onde {len(aptos2)} são aptos") 
 
 def main():
     welcome()
